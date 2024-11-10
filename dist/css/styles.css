@@ -11108,3 +11108,186 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+header .img-fluid {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #0083bb;
+  border-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #28a745;
+  border-color: #0083bb;
+  color: white;
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+  transform: scale(1.05);
+}
+
+
+.btn-xl {
+  font-size: 1.25rem;
+  padding: 15px 30px;  
+}
+
+
+.btn-dark {
+  background-color: #343a40; 
+  border-color: #343a40;
+}
+.btn-dark:hover {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.callout .btn-primary {
+  background-color: #0083bb;  
+  border-color: #28a745;      
+  color: white;              
+  padding: 12px 25px;         
+  border-radius: 5px;        
+  transition: all 0.3s ease;  
+  font-weight: bold;          
+  text-transform: uppercase;  
+  text-align: center;         
+  letter-spacing: 1px;        
+}
+
+.callout .btn-primary:hover {
+  background-color: #28a745;  
+  border-color: #0083bb;     
+  color: white;               
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+  transform: scale(1.05);      
+}
+
+
+
+.footer {
+  background-color: #212529; 
+  padding: 40px 0;
+}
+.footer .list-inline-item a {
+  color: #f8f9fa; 
+}
+.footer .list-inline-item a:hover {
+  color: #0dcaf0; 
+}
+.footer p {
+  color: #adb5bd;
+  font-size: 0.875rem;
+}
+
+.service-icon {
+  background-color: #1D809F;
+  color: #fff;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+.service-icon i {
+  font-size: 24px;
+}
+
+#portfolio .portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+#portfolio .portfolio-item img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+#portfolio .portfolio-item:hover img {
+  transform: scale(1.05);
+}
+#portfolio .caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+#portfolio .portfolio-item:hover .caption {
+  opacity: 1;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#contact .form-group {
+  margin-bottom: 15px;
+}
+#contact .form-control {
+  padding: 10px;
+  font-size: 1rem;
+}
+#contact .btn-primary {
+  background-color: #1D809F;
+  border-color: #1D809F;
+}
+#contact .btn-primary:hover {
+  background-color: #17667f;
+  border-color: #17667f;
+}
+
+@media (min-width: 992px) {
+  #portfolio .col-lg-6 {
+      max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  header .container {
+      text-align: center;
+  }
+  #portfolio .col-lg-6 {
+      max-width: 100%;
+  }
+}
+
+.visit-web p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.yvagacore-link {
+  font-size: 18px;
+  color: #0083bb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.yvagacore-link:hover {
+  color: #006f9a;
+  text-shadow: 0 0 10px rgba(0, 131, 187, 0.6), 0 0 20px rgba(0, 131, 187, 0.4);
+}
+
